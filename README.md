@@ -1,4 +1,4 @@
-# FHIRworks Package  
+# FHIRworks Package <img src="man/figures/logo.png" align="right" alt="" width="120" />   
 
 # Installation  
 
