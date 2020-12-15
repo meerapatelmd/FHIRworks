@@ -1,0 +1,2919 @@
+---
+title: "sample-resources"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{sample-resources}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(FHIRworks)
+```
+
+
+# Account  
+```{r Account}
+response <- get_resource_entity_set(resource = 'Account')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Account_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ActivityDefinition  
+```{r ActivityDefinition}
+response <- get_resource_entity_set(resource = 'ActivityDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ActivityDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# AdverseEvent  
+```{r AdverseEvent}
+response <- get_resource_entity_set(resource = 'AdverseEvent')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r AdverseEvent_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# AllergyIntolerance  
+```{r AllergyIntolerance}
+response <- get_resource_entity_set(resource = 'AllergyIntolerance')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r AllergyIntolerance_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Appointment  
+```{r Appointment}
+response <- get_resource_entity_set(resource = 'Appointment')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Appointment_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# AppointmentResponse  
+```{r AppointmentResponse}
+response <- get_resource_entity_set(resource = 'AppointmentResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r AppointmentResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# AuditEvent  
+```{r AuditEvent}
+response <- get_resource_entity_set(resource = 'AuditEvent')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r AuditEvent_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Basic  
+```{r Basic}
+response <- get_resource_entity_set(resource = 'Basic')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Basic_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Binary  
+```{r Binary}
+response <- get_resource_entity_set(resource = 'Binary')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Binary_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# BiologicallyDerivedProduct  
+```{r BiologicallyDerivedProduct}
+response <- get_resource_entity_set(resource = 'BiologicallyDerivedProduct')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r BiologicallyDerivedProduct_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# BodyStructure  
+```{r BodyStructure}
+response <- get_resource_entity_set(resource = 'BodyStructure')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r BodyStructure_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Bundle  
+```{r Bundle}
+response <- get_resource_entity_set(resource = 'Bundle')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Bundle_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CapabilityStatement  
+```{r CapabilityStatement}
+response <- get_resource_entity_set(resource = 'CapabilityStatement')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CapabilityStatement_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CarePlan  
+```{r CarePlan}
+response <- get_resource_entity_set(resource = 'CarePlan')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CarePlan_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CareTeam  
+```{r CareTeam}
+response <- get_resource_entity_set(resource = 'CareTeam')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CareTeam_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CatalogEntry  
+```{r CatalogEntry}
+response <- get_resource_entity_set(resource = 'CatalogEntry')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CatalogEntry_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ChargeItem  
+```{r ChargeItem}
+response <- get_resource_entity_set(resource = 'ChargeItem')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ChargeItem_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ChargeItemDefinition  
+```{r ChargeItemDefinition}
+response <- get_resource_entity_set(resource = 'ChargeItemDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ChargeItemDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Claim  
+```{r Claim}
+response <- get_resource_entity_set(resource = 'Claim')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Claim_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ClaimResponse  
+```{r ClaimResponse}
+response <- get_resource_entity_set(resource = 'ClaimResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ClaimResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ClinicalImpression  
+```{r ClinicalImpression}
+response <- get_resource_entity_set(resource = 'ClinicalImpression')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ClinicalImpression_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CodeSystem  
+```{r CodeSystem}
+response <- get_resource_entity_set(resource = 'CodeSystem')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CodeSystem_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Communication  
+```{r Communication}
+response <- get_resource_entity_set(resource = 'Communication')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Communication_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CommunicationRequest  
+```{r CommunicationRequest}
+response <- get_resource_entity_set(resource = 'CommunicationRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CommunicationRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CompartmentDefinition  
+```{r CompartmentDefinition}
+response <- get_resource_entity_set(resource = 'CompartmentDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CompartmentDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Composition  
+```{r Composition}
+response <- get_resource_entity_set(resource = 'Composition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Composition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ConceptMap  
+```{r ConceptMap}
+response <- get_resource_entity_set(resource = 'ConceptMap')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ConceptMap_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Condition (aka Problem)  
+```{r Condition (aka Problem)}
+response <- get_resource_entity_set(resource = 'Condition (aka Problem)')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Condition (aka Problem)_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Consent  
+```{r Consent}
+response <- get_resource_entity_set(resource = 'Consent')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Consent_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Contract  
+```{r Contract}
+response <- get_resource_entity_set(resource = 'Contract')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Contract_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Coverage  
+```{r Coverage}
+response <- get_resource_entity_set(resource = 'Coverage')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Coverage_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CoverageEligibilityRequest  
+```{r CoverageEligibilityRequest}
+response <- get_resource_entity_set(resource = 'CoverageEligibilityRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CoverageEligibilityRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# CoverageEligibilityResponse  
+```{r CoverageEligibilityResponse}
+response <- get_resource_entity_set(resource = 'CoverageEligibilityResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r CoverageEligibilityResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DetectedIssue  
+```{r DetectedIssue}
+response <- get_resource_entity_set(resource = 'DetectedIssue')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DetectedIssue_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Device  
+```{r Device}
+response <- get_resource_entity_set(resource = 'Device')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Device_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DeviceDefinition  
+```{r DeviceDefinition}
+response <- get_resource_entity_set(resource = 'DeviceDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DeviceDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DeviceMetric  
+```{r DeviceMetric}
+response <- get_resource_entity_set(resource = 'DeviceMetric')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DeviceMetric_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DeviceRequest  
+```{r DeviceRequest}
+response <- get_resource_entity_set(resource = 'DeviceRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DeviceRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DeviceUseStatement  
+```{r DeviceUseStatement}
+response <- get_resource_entity_set(resource = 'DeviceUseStatement')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DeviceUseStatement_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DiagnosticReport  
+```{r DiagnosticReport}
+response <- get_resource_entity_set(resource = 'DiagnosticReport')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DiagnosticReport_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DocumentManifest  
+```{r DocumentManifest}
+response <- get_resource_entity_set(resource = 'DocumentManifest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DocumentManifest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# DocumentReference  
+```{r DocumentReference}
+response <- get_resource_entity_set(resource = 'DocumentReference')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r DocumentReference_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EffectEvidenceSynthesis  
+```{r EffectEvidenceSynthesis}
+response <- get_resource_entity_set(resource = 'EffectEvidenceSynthesis')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EffectEvidenceSynthesis_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Encounter  
+```{r Encounter}
+response <- get_resource_entity_set(resource = 'Encounter')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Encounter_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Endpoint  
+```{r Endpoint}
+response <- get_resource_entity_set(resource = 'Endpoint')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Endpoint_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EnrollmentRequest  
+```{r EnrollmentRequest}
+response <- get_resource_entity_set(resource = 'EnrollmentRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EnrollmentRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EnrollmentResponse  
+```{r EnrollmentResponse}
+response <- get_resource_entity_set(resource = 'EnrollmentResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EnrollmentResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EpisodeOfCare  
+```{r EpisodeOfCare}
+response <- get_resource_entity_set(resource = 'EpisodeOfCare')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EpisodeOfCare_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EventDefinition  
+```{r EventDefinition}
+response <- get_resource_entity_set(resource = 'EventDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EventDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Evidence  
+```{r Evidence}
+response <- get_resource_entity_set(resource = 'Evidence')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Evidence_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# EvidenceVariable  
+```{r EvidenceVariable}
+response <- get_resource_entity_set(resource = 'EvidenceVariable')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r EvidenceVariable_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ExampleScenario  
+```{r ExampleScenario}
+response <- get_resource_entity_set(resource = 'ExampleScenario')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ExampleScenario_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ExplanationOfBenefit  
+```{r ExplanationOfBenefit}
+response <- get_resource_entity_set(resource = 'ExplanationOfBenefit')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ExplanationOfBenefit_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# FamilyMemberHistory  
+```{r FamilyMemberHistory}
+response <- get_resource_entity_set(resource = 'FamilyMemberHistory')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r FamilyMemberHistory_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Flag  
+```{r Flag}
+response <- get_resource_entity_set(resource = 'Flag')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Flag_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Goal  
+```{r Goal}
+response <- get_resource_entity_set(resource = 'Goal')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Goal_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# GraphDefinition  
+```{r GraphDefinition}
+response <- get_resource_entity_set(resource = 'GraphDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r GraphDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Group  
+```{r Group}
+response <- get_resource_entity_set(resource = 'Group')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Group_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# GuidanceResponse  
+```{r GuidanceResponse}
+response <- get_resource_entity_set(resource = 'GuidanceResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r GuidanceResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# HealthcareService  
+```{r HealthcareService}
+response <- get_resource_entity_set(resource = 'HealthcareService')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r HealthcareService_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ImagingStudy  
+```{r ImagingStudy}
+response <- get_resource_entity_set(resource = 'ImagingStudy')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ImagingStudy_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Immunization  
+```{r Immunization}
+response <- get_resource_entity_set(resource = 'Immunization')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Immunization_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ImmunizationEvaluation  
+```{r ImmunizationEvaluation}
+response <- get_resource_entity_set(resource = 'ImmunizationEvaluation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ImmunizationEvaluation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ImmunizationRecommendation  
+```{r ImmunizationRecommendation}
+response <- get_resource_entity_set(resource = 'ImmunizationRecommendation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ImmunizationRecommendation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ImplementationGuide  
+```{r ImplementationGuide}
+response <- get_resource_entity_set(resource = 'ImplementationGuide')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ImplementationGuide_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# InsurancePlan  
+```{r InsurancePlan}
+response <- get_resource_entity_set(resource = 'InsurancePlan')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r InsurancePlan_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Invoice  
+```{r Invoice}
+response <- get_resource_entity_set(resource = 'Invoice')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Invoice_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Library  
+```{r Library}
+response <- get_resource_entity_set(resource = 'Library')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Library_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Linkage  
+```{r Linkage}
+response <- get_resource_entity_set(resource = 'Linkage')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Linkage_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# List  
+```{r List}
+response <- get_resource_entity_set(resource = 'List')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r List_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Location  
+```{r Location}
+response <- get_resource_entity_set(resource = 'Location')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Location_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Measure  
+```{r Measure}
+response <- get_resource_entity_set(resource = 'Measure')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Measure_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MeasureReport  
+```{r MeasureReport}
+response <- get_resource_entity_set(resource = 'MeasureReport')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MeasureReport_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Media  
+```{r Media}
+response <- get_resource_entity_set(resource = 'Media')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Media_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Medication  
+```{r Medication}
+response <- get_resource_entity_set(resource = 'Medication')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Medication_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicationAdministration  
+```{r MedicationAdministration}
+response <- get_resource_entity_set(resource = 'MedicationAdministration')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicationAdministration_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicationDispense  
+```{r MedicationDispense}
+response <- get_resource_entity_set(resource = 'MedicationDispense')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicationDispense_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicationKnowledge  
+```{r MedicationKnowledge}
+response <- get_resource_entity_set(resource = 'MedicationKnowledge')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicationKnowledge_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicationRequest  
+```{r MedicationRequest}
+response <- get_resource_entity_set(resource = 'MedicationRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicationRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicationStatement  
+```{r MedicationStatement}
+response <- get_resource_entity_set(resource = 'MedicationStatement')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicationStatement_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProduct  
+```{r MedicinalProduct}
+response <- get_resource_entity_set(resource = 'MedicinalProduct')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProduct_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductAuthorization  
+```{r MedicinalProductAuthorization}
+response <- get_resource_entity_set(resource = 'MedicinalProductAuthorization')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductAuthorization_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductContraindication  
+```{r MedicinalProductContraindication}
+response <- get_resource_entity_set(resource = 'MedicinalProductContraindication')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductContraindication_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductIndication  
+```{r MedicinalProductIndication}
+response <- get_resource_entity_set(resource = 'MedicinalProductIndication')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductIndication_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductIngredient  
+```{r MedicinalProductIngredient}
+response <- get_resource_entity_set(resource = 'MedicinalProductIngredient')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductIngredient_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductInteraction  
+```{r MedicinalProductInteraction}
+response <- get_resource_entity_set(resource = 'MedicinalProductInteraction')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductInteraction_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductManufactured  
+```{r MedicinalProductManufactured}
+response <- get_resource_entity_set(resource = 'MedicinalProductManufactured')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductManufactured_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductPackaged  
+```{r MedicinalProductPackaged}
+response <- get_resource_entity_set(resource = 'MedicinalProductPackaged')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductPackaged_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductPharmaceutical  
+```{r MedicinalProductPharmaceutical}
+response <- get_resource_entity_set(resource = 'MedicinalProductPharmaceutical')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductPharmaceutical_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MedicinalProductUndesirableEffect  
+```{r MedicinalProductUndesirableEffect}
+response <- get_resource_entity_set(resource = 'MedicinalProductUndesirableEffect')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MedicinalProductUndesirableEffect_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MessageDefinition  
+```{r MessageDefinition}
+response <- get_resource_entity_set(resource = 'MessageDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MessageDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MessageHeader  
+```{r MessageHeader}
+response <- get_resource_entity_set(resource = 'MessageHeader')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MessageHeader_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# MolecularSequence  
+```{r MolecularSequence}
+response <- get_resource_entity_set(resource = 'MolecularSequence')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r MolecularSequence_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# NamingSystem  
+```{r NamingSystem}
+response <- get_resource_entity_set(resource = 'NamingSystem')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r NamingSystem_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# NutritionOrder  
+```{r NutritionOrder}
+response <- get_resource_entity_set(resource = 'NutritionOrder')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r NutritionOrder_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Observation  
+```{r Observation}
+response <- get_resource_entity_set(resource = 'Observation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Observation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ObservationDefinition  
+```{r ObservationDefinition}
+response <- get_resource_entity_set(resource = 'ObservationDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ObservationDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# OperationDefinition  
+```{r OperationDefinition}
+response <- get_resource_entity_set(resource = 'OperationDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r OperationDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# OperationOutcome  
+```{r OperationOutcome}
+response <- get_resource_entity_set(resource = 'OperationOutcome')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r OperationOutcome_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Organization  
+```{r Organization}
+response <- get_resource_entity_set(resource = 'Organization')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Organization_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# OrganizationAffiliation  
+```{r OrganizationAffiliation}
+response <- get_resource_entity_set(resource = 'OrganizationAffiliation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r OrganizationAffiliation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Parameters  
+```{r Parameters}
+response <- get_resource_entity_set(resource = 'Parameters')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Parameters_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Patient  
+```{r Patient}
+response <- get_resource_entity_set(resource = 'Patient')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Patient_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# PaymentNotice  
+```{r PaymentNotice}
+response <- get_resource_entity_set(resource = 'PaymentNotice')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r PaymentNotice_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# PaymentReconciliation  
+```{r PaymentReconciliation}
+response <- get_resource_entity_set(resource = 'PaymentReconciliation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r PaymentReconciliation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Person  
+```{r Person}
+response <- get_resource_entity_set(resource = 'Person')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Person_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# PlanDefinition  
+```{r PlanDefinition}
+response <- get_resource_entity_set(resource = 'PlanDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r PlanDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Practitioner  
+```{r Practitioner}
+response <- get_resource_entity_set(resource = 'Practitioner')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Practitioner_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# PractitionerRole  
+```{r PractitionerRole}
+response <- get_resource_entity_set(resource = 'PractitionerRole')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r PractitionerRole_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Procedure  
+```{r Procedure}
+response <- get_resource_entity_set(resource = 'Procedure')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Procedure_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Provenance  
+```{r Provenance}
+response <- get_resource_entity_set(resource = 'Provenance')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Provenance_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Questionnaire  
+```{r Questionnaire}
+response <- get_resource_entity_set(resource = 'Questionnaire')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Questionnaire_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# QuestionnaireResponse  
+```{r QuestionnaireResponse}
+response <- get_resource_entity_set(resource = 'QuestionnaireResponse')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r QuestionnaireResponse_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# RelatedPerson  
+```{r RelatedPerson}
+response <- get_resource_entity_set(resource = 'RelatedPerson')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r RelatedPerson_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# RequestGroup  
+```{r RequestGroup}
+response <- get_resource_entity_set(resource = 'RequestGroup')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r RequestGroup_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ResearchDefinition  
+```{r ResearchDefinition}
+response <- get_resource_entity_set(resource = 'ResearchDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ResearchDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ResearchElementDefinition  
+```{r ResearchElementDefinition}
+response <- get_resource_entity_set(resource = 'ResearchElementDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ResearchElementDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ResearchStudy  
+```{r ResearchStudy}
+response <- get_resource_entity_set(resource = 'ResearchStudy')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ResearchStudy_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ResearchSubject  
+```{r ResearchSubject}
+response <- get_resource_entity_set(resource = 'ResearchSubject')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ResearchSubject_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# RiskAssessment  
+```{r RiskAssessment}
+response <- get_resource_entity_set(resource = 'RiskAssessment')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r RiskAssessment_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# RiskEvidenceSynthesis  
+```{r RiskEvidenceSynthesis}
+response <- get_resource_entity_set(resource = 'RiskEvidenceSynthesis')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r RiskEvidenceSynthesis_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Schedule  
+```{r Schedule}
+response <- get_resource_entity_set(resource = 'Schedule')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Schedule_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SearchParameter  
+```{r SearchParameter}
+response <- get_resource_entity_set(resource = 'SearchParameter')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SearchParameter_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ServiceRequest  
+```{r ServiceRequest}
+response <- get_resource_entity_set(resource = 'ServiceRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ServiceRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Slot  
+```{r Slot}
+response <- get_resource_entity_set(resource = 'Slot')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Slot_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Specimen  
+```{r Specimen}
+response <- get_resource_entity_set(resource = 'Specimen')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Specimen_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SpecimenDefinition  
+```{r SpecimenDefinition}
+response <- get_resource_entity_set(resource = 'SpecimenDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SpecimenDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# StructureDefinition  
+```{r StructureDefinition}
+response <- get_resource_entity_set(resource = 'StructureDefinition')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r StructureDefinition_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# StructureMap  
+```{r StructureMap}
+response <- get_resource_entity_set(resource = 'StructureMap')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r StructureMap_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Subscription  
+```{r Subscription}
+response <- get_resource_entity_set(resource = 'Subscription')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Subscription_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Substance  
+```{r Substance}
+response <- get_resource_entity_set(resource = 'Substance')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Substance_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SubstancePolymer  
+```{r SubstancePolymer}
+response <- get_resource_entity_set(resource = 'SubstancePolymer')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SubstancePolymer_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SubstanceProtein  
+```{r SubstanceProtein}
+response <- get_resource_entity_set(resource = 'SubstanceProtein')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SubstanceProtein_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SubstanceReferenceInformation  
+```{r SubstanceReferenceInformation}
+response <- get_resource_entity_set(resource = 'SubstanceReferenceInformation')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SubstanceReferenceInformation_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SubstanceSpecification  
+```{r SubstanceSpecification}
+response <- get_resource_entity_set(resource = 'SubstanceSpecification')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SubstanceSpecification_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SubstanceSourceMaterial  
+```{r SubstanceSourceMaterial}
+response <- get_resource_entity_set(resource = 'SubstanceSourceMaterial')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SubstanceSourceMaterial_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SupplyDelivery  
+```{r SupplyDelivery}
+response <- get_resource_entity_set(resource = 'SupplyDelivery')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SupplyDelivery_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# SupplyRequest  
+```{r SupplyRequest}
+response <- get_resource_entity_set(resource = 'SupplyRequest')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r SupplyRequest_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# Task  
+```{r Task}
+response <- get_resource_entity_set(resource = 'Task')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r Task_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# TerminologyCapabilities  
+```{r TerminologyCapabilities}
+response <- get_resource_entity_set(resource = 'TerminologyCapabilities')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r TerminologyCapabilities_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# TestReport  
+```{r TestReport}
+response <- get_resource_entity_set(resource = 'TestReport')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r TestReport_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# TestScript  
+```{r TestScript}
+response <- get_resource_entity_set(resource = 'TestScript')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r TestScript_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# ValueSet  
+```{r ValueSet}
+response <- get_resource_entity_set(resource = 'ValueSet')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r ValueSet_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# VerificationResult  
+```{r VerificationResult}
+response <- get_resource_entity_set(resource = 'VerificationResult')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r VerificationResult_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
+
+
+# VisionPrescription  
+```{r VisionPrescription}
+response <- get_resource_entity_set(resource = 'VisionPrescription')
+payload <- return_payload(response)
+if (!is.null(payload)) {
+  head(payload$resource)
+}
+            
+```
+
+
+
+
+```{r VisionPrescription_pause, echo=FALSE,eval=TRUE}
+Sys.sleep(5)
+```
+
+
