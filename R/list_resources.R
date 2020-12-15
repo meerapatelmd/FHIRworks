@@ -165,9 +165,10 @@ function (data) {
         output <- vector()
         for (i in 1:nrow(data)) {
                 output <- c(output,
-                            data[i, ] %>%
-                                    unlist() %>%
-                                    paste(collapse = ", "))
+                            sprintf("%s,",
+                                    data[i, ] %>%
+                                            unlist() %>%
+                                            paste(collapse = ", ")))
         }
         output_colnames <- paste0("~`", colnames(data), "`") %>% paste(collapse = ",")
 
@@ -184,6 +185,8 @@ for (i in seq_along(resources)) {
 
         resource <- resources[i]
         file <- sprintf("R/%s.R", tolower(resource))
+
+        if (!file.exists(file)) {
         cat(file = file,
             append = FALSE)
 
@@ -223,5 +226,7 @@ for (i in seq_along(resources)) {
                 cat("\n\n\n",
                     file = file,
                     append = TRUE)
+        }
+        closeAllConnections()
         }
 }

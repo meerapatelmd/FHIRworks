@@ -1,11 +1,11 @@
-df1 <- 
+df1 <-
 tibble::tribble(
 ~`X1`,~`X2`,~`X3`,~`X4`,~`X5`,
 'Patient Administration  Work Group', 'Maturity Level: 3', 'Trial Use', 'Security Category: Patient', 'Compartments: Device, Patient, Practitioner, RelatedPerson',
 )
 
 
-df2 <- 
+df2 <-
 tibble::tribble(
 ~`Name`,~`Flags`,~`Card.`,~`Type`,~`Description & Constraints`,
 'Appointment', 'ITU', '', 'DomainResource', 'A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s)+ Rule: Either start and end are specified, or neither+ Rule: Only proposed or cancelled appointments can be missing start/end dates+ Rule: Cancelation reason is only used for appointments that have been cancelled, or no-showElements defined in Ancestors: id, meta, implicitRules, language, text, contained, extension, modifierExtension',
@@ -40,7 +40,7 @@ tibble::tribble(
 )
 
 
-df3 <- 
+df3 <-
 tibble::tribble(
 ~`X1`,~`X2`,
 'Appointment', '',
@@ -61,7 +61,7 @@ tibble::tribble(
 )
 
 
-df4 <- 
+df4 <-
 tibble::tribble(
 ~`Name`,~`Flags`,~`Card.`,~`Type`,~`Description & Constraints`,
 'Appointment', 'ITU', '', 'DomainResource', 'A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s)+ Rule: Either start and end are specified, or neither+ Rule: Only proposed or cancelled appointments can be missing start/end dates+ Rule: Cancelation reason is only used for appointments that have been cancelled, or no-showElements defined in Ancestors: id, meta, implicitRules, language, text, contained, extension, modifierExtension',
@@ -96,7 +96,7 @@ tibble::tribble(
 )
 
 
-df5 <- 
+df5 <-
 tibble::tribble(
 ~`X1`,~`X2`,
 'Appointment', '',
@@ -117,7 +117,7 @@ tibble::tribble(
 )
 
 
-df6 <- 
+df6 <-
 tibble::tribble(
 ~`Path`,~`Definition`,~`Type`,~`Reference`,
 'Appointment.status', 'The free/busy status of an appointment.', 'Required', 'AppointmentStatus',
@@ -133,7 +133,7 @@ tibble::tribble(
 )
 
 
-df7 <- 
+df7 <-
 tibble::tribble(
 ~`X1`,~`X2`,~`X3`,~`X4`,~`X5`,
 'id', 'Level', 'Location', 'Description', 'Expression',
@@ -144,7 +144,7 @@ tibble::tribble(
 )
 
 
-df8 <- 
+df8 <-
 tibble::tribble(
 ~`Activity Description`,~`Slot`,~`Appointment`,~`Appointment Response`,~`Encounter`,
 'The schedule is created/published (Role: Scheduler)', 'freeBusyType = FREE', '', '', '',
@@ -162,7 +162,7 @@ tibble::tribble(
 )
 
 
-df9 <- 
+df9 <-
 tibble::tribble(
 ~`Activity Description`,~`Slot`,~`Appointment`,~`Appointment Response`,
 'The schedule is created/published (Role: Scheduler)', 'freeBusyType = FREE', '', '',
@@ -175,7 +175,7 @@ tibble::tribble(
 )
 
 
-df10 <- 
+df10 <-
 tibble::tribble(
 ~`Activity Description`,~`Slot`,~`Appointment`,~`Appointment Response`,
 'The schedule is created/published (Role: Scheduler)', 'freeBusyType = FREE', '', '',
@@ -184,7 +184,7 @@ tibble::tribble(
 				participant(Peter).status = needs-action', '',
 'The schedule is updated to inform others of interest in the slot(Role: Scheduler)', 'freeBusyType = BUSY-TENTATIVE', '', '',
 'Brian accepts the appointment(Role: Participant-Brian)', '', '', '(Brian).participantStatus = accepted',
-'Appointment is updated with Brian's status(Role: Scheduler)', '', 'status = pending
+'Appointment is updated with Brian\'s status(Role: Scheduler)', '', 'status = pending
 				participant(Brian).status = accepted', '',
 'Peter suggests a new time(Role: Participant-Peter)', '', '', '(Peter).participantStatus = tentative(with new time)',
 'Appointment is updated with new time, and indicates that action is needed by both participants(Role: Scheduler)', '', '(new time details updated)
@@ -198,7 +198,7 @@ tibble::tribble(
 )
 
 
-df11 <- 
+df11 <-
 tibble::tribble(
 ~`Activity Description`,~`Slot`,~`Appointment`,~`Appointment Response`,~`Encounter`,
 '(from typical status flow)', 'freeBusyType = BUSY', 'status = booked
@@ -207,7 +207,7 @@ tibble::tribble(
 )
 
 
-df12 <- 
+df12 <-
 tibble::tribble(
 ~`Activity Description`,~`Appointment (inconvenient)`,~`Appointment (preferred)`,
 'An appointment is booked for an inconvenient time using a typical status flow', 'status = booked
@@ -222,7 +222,7 @@ tibble::tribble(
 )
 
 
-df13 <- 
+df13 <-
 tibble::tribble(
 ~`X1`,~`X2`,~`X3`,~`X4`,~`X5`,
 'Name', 'Type', 'Description', 'Expression', 'In Common',
