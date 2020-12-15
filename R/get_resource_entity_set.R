@@ -1,31 +1,16 @@
+#' @title
+#' Get a Resource's Entity Set
+#'
+#' @param resource FHIR resource.
+#' @inheritParams fhir_test_api
+#' @inherit fhir_test_api return
+#' @rdname get_resource_entity_set
+#' @export
 get_resource_entity_set <-
-        function(resource = "Patient") {
+        function(resource,
+                 user_agent) {
 
-                baseURL <- "http://test.fhir.org/r4"
-                response <-
-                        httr::GET(sprintf("%s/%s",
-                                          baseURL,
-                                          "Patient"))
-
-                if (httr::http_error(response)) {
-
-                        stop(
-                                sprintf(
-                                        "Test FHIR API request failed [%s]\n%s",
-                                        httr::status_code(response),
-                                        httr::http_status(response)$message
-                                ),
-                                call. = FALSE
-                        )
-
-
-                } else {
-
-                        parsed <- httr::content(response,
-                                                as = "text",
-                                                encoding = "UTF-8")
-                        df <- jsonlite::fromJSON(parsed)
-                        tibble::as_tibble(df)
-                }
+                fhir_test_api(path = resource,
+                              user_agent = user_agent)
 
         }

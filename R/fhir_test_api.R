@@ -31,8 +31,7 @@ fhir_test_api <-
 
                 parsed <- jsonlite::fromJSON(httr::content(response,
                                                            as = "text",
-                                                           encoding = "UTF-8"),
-                                             simplifyVector = FALSE)
+                                                           encoding = "UTF-8"))
 
                 if (httr::http_error(response)) {
                         stop(
@@ -64,4 +63,16 @@ print.fhir_test_api <-
                 cat("<FHIR Test", x$path, ">\n", sep = "")
                 str(x$content)
                 invisible(x)
+        }
+
+
+#' @export
+#' @title
+#' Return the payload
+#' @rdname return_payload
+
+return_payload <-
+        function(fhir_test_api) {
+
+                fhir_test_api$content$entry
         }
