@@ -3,7 +3,8 @@
 #' List Resources
 #'
 #' @description
-#' Resource list taken from \url{https://www.hl7.org/fhir/resourcelist.html} on 2020-12-14.
+#' A flat list of FHIR Resources was derived from \url{https://www.hl7.org/fhir/resourcelist.html} on 2020-12-14.
+#'
 #' @export
 
 list_resources <-

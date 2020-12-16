@@ -4,11 +4,29 @@
 \alias{get_resource_entity_set}
 \title{Get a Resource's Entity Set}
 \usage{
-get_resource_entity_set(resource, user_agent)
+get_resource_entity_set(
+  resource,
+  base_url = "http://hapi.fhir.org/baseR4",
+  delay = 5,
+  user_agent
+)
 }
 \arguments{
 \item{resource}{FHIR resource.}
+
+\item{base_url}{Base url.}
+
+\item{delay}{Delay in seconds before making the API call.}
+
+\item{user_agent}{(Optional) User agent.}
+}
+\value{
+A fhir_test_api class object.
 }
 \description{
-Get a Resource's Entity Set
+All possible FHIR Resources can be returned as a character vector with \code{\link{list_resources}}.
+}
+\examples{
+library(FHIRworks)
+get_resource_entity_set(resource = "Patient")
 }
