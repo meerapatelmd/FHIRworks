@@ -158,167 +158,399 @@
 </div><div class='output co'>#&gt; &lt;FHIR TestPatient&gt;
 #&gt; List of 6
 #&gt;  $ resourceType: chr "Bundle"
-#&gt;  $ id          : chr "06b547dd-14f0-40cc-a7ae-5195d4d20ecb"
+#&gt;  $ id          : chr "af2d42a1-de57-47d1-8744-d27829aa6c5f"
 #&gt;  $ meta        :List of 1
-#&gt;   ..$ lastUpdated: chr "2020-12-16T23:53:59.165+00:00"
+#&gt;   ..$ lastUpdated: chr "2020-12-16T23:55:00.900+00:00"
 #&gt;  $ type        : chr "searchset"
 #&gt;  $ link        :'data.frame':	2 obs. of  2 variables:
 #&gt;   ..$ relation: chr [1:2] "self" "next"
-#&gt;   ..$ url     : chr [1:2] "http://hapi.fhir.org/baseR4/Patient" "http://hapi.fhir.org/baseR4?_getpages=06b547dd-14f0-40cc-a7ae-5195d4d20ecb&amp;_getpagesoffset=20&amp;_count=20&amp;_pretty"| __truncated__
+#&gt;   ..$ url     : chr [1:2] "http://hapi.fhir.org/baseR4/Patient" "http://hapi.fhir.org/baseR4?_getpages=af2d42a1-de57-47d1-8744-d27829aa6c5f&amp;_getpagesoffset=20&amp;_count=20&amp;_pretty"| __truncated__
 #&gt;  $ entry       :'data.frame':	20 obs. of  3 variables:
-#&gt;   ..$ fullUrl : chr [1:20] "http://hapi.fhir.org/baseR4/Patient/1698345" "http://hapi.fhir.org/baseR4/Patient/1698346" "http://hapi.fhir.org/baseR4/Patient/1698409" "http://hapi.fhir.org/baseR4/Patient/1698410" ...
-#&gt;   ..$ resource:'data.frame':	20 obs. of  6 variables:
+#&gt;   ..$ fullUrl : chr [1:20] "http://hapi.fhir.org/baseR4/Patient/641047" "http://hapi.fhir.org/baseR4/Patient/641048" "http://hapi.fhir.org/baseR4/Patient/641049" "http://hapi.fhir.org/baseR4/Patient/641050" ...
+#&gt;   ..$ resource:'data.frame':	20 obs. of  10 variables:
 #&gt;   .. ..$ resourceType: chr [1:20] "Patient" "Patient" "Patient" "Patient" ...
-#&gt;   .. ..$ id          : chr [1:20] "1698345" "1698346" "1698409" "1698410" ...
+#&gt;   .. ..$ id          : chr [1:20] "641047" "641048" "641049" "641050" ...
 #&gt;   .. ..$ meta        :'data.frame':	20 obs. of  3 variables:
 #&gt;   .. .. ..$ versionId  : chr [1:20] "1" "1" "1" "1" ...
-#&gt;   .. .. ..$ lastUpdated: chr [1:20] "2020-12-02T01:46:59.081+00:00" "2020-12-02T01:49:01.908+00:00" "2020-12-02T02:15:28.754+00:00" "2020-12-02T02:17:09.185+00:00" ...
-#&gt;   .. .. ..$ source     : chr [1:20] "#0UWKpk8VQWjsyAW9" "#onOl3CWhx1RSfUcA" "#E3XEfpzeGBkdYVkX" "#tVWI3AXmoJWQjCe8" ...
+#&gt;   .. .. ..$ lastUpdated: chr [1:20] "2020-03-11T07:57:32.692+00:00" "2020-03-11T08:01:18.035+00:00" "2020-03-11T08:01:29.887+00:00" "2020-03-11T08:01:44.818+00:00" ...
+#&gt;   .. .. ..$ source     : chr [1:20] "#b1hhiT6XV7RmgASE" "#DURIZ4b6Hl8uY1Uy" "#M4UzqJEF5xXFjQcT" "#hKmsHwsPc76F0yLU" ...
 #&gt;   .. ..$ text        :'data.frame':	20 obs. of  2 variables:
 #&gt;   .. .. ..$ status: chr [1:20] "generated" "generated" "generated" "generated" ...
-#&gt;   .. .. ..$ div   : chr [1:20] "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;John &lt;b&gt;SMITH &lt;/b&gt;&lt;/div&gt;&lt;table class="| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;John &lt;b&gt;SMITH &lt;/b&gt;&lt;/div&gt;&lt;table class="| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;John &lt;b&gt;SMITH &lt;/b&gt;&lt;/div&gt;&lt;table class="| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;John &lt;b&gt;HEHEHEDA &lt;/b&gt;&lt;/div&gt;&lt;table cla"| __truncated__ ...
+#&gt;   .. .. ..$ div   : chr [1:20] "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;太郎 &lt;b&gt;患者 &lt;/b&gt;&lt;/div&gt;&lt;table class=\"| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;太郎 &lt;b&gt;患者 &lt;/b&gt;&lt;/div&gt;&lt;table class=\"| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;太郎 &lt;b&gt;患者 &lt;/b&gt;&lt;/div&gt;&lt;table class=\"| __truncated__ "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;div class=\"hapiHeaderText\"&gt;太郎 &lt;b&gt;患者 &lt;/b&gt;&lt;/div&gt;&lt;table class=\"| __truncated__ ...
 #&gt;   .. ..$ identifier  :List of 20
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "12345"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "12345"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "12345"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "387"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "388"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "urn:oid:0.2.440.200234.1001.1.002"
+#&gt;   .. .. .. ..$ value : chr "389"
+#&gt;   .. .. ..$ : NULL
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "http://ns.electronichealth.net.au/id/hi/ihi/1.0"
+#&gt;   .. .. .. ..$ value : chr "8003608166690503"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ system: chr "http://ns.electronichealth.net.au/id/hi/ihi/1.0"
+#&gt;   .. .. .. ..$ value : chr "8003608166690503"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ type  :'data.frame':	2 obs. of  1 variable:
+#&gt;   .. .. .. .. ..$ coding:List of 2
+#&gt;   .. .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. .. ..$ system: chr "http://terminology.hl7.org/CodeSystem/v2-0203"
+#&gt;   .. .. .. .. .. .. ..$ code  : chr "MR"
+#&gt;   .. .. .. .. .. ..$ : NULL
+#&gt;   .. .. .. ..$ system: chr [1:2] "http://starfleet-hospital.ufp..." "http://fhir.de/NamingSystem/gkv/kvid-10"
+#&gt;   .. .. .. ..$ value : chr [1:2] "NCC-1032" "4449973264355222222"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ type :'data.frame':	1 obs. of  1 variable:
+#&gt;   .. .. .. .. ..$ coding:List of 1
+#&gt;   .. .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. .. ..$ system: chr "http://hl7.org/fhir/v2/0203"
+#&gt;   .. .. .. .. .. .. ..$ code  : chr "MR"
+#&gt;   .. .. .. ..$ value: chr "35f23bff-c898-4bdc-aa21-225a02ebe83f"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ type :'data.frame':	1 obs. of  1 variable:
+#&gt;   .. .. .. .. ..$ coding:List of 1
+#&gt;   .. .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. .. ..$ system: chr "http://hl7.org/fhir/v2/0203"
+#&gt;   .. .. .. .. .. .. ..$ code  : chr "MR"
+#&gt;   .. .. .. ..$ value: chr "92504908-0276-4bae-a0c6-c4af994772cb"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "12345"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "12345"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ system: chr "urn:system"
-#&gt;   .. .. .. ..$ value : chr "002200"
+#&gt;   .. .. .. ..$ type :'data.frame':	1 obs. of  1 variable:
+#&gt;   .. .. .. .. ..$ coding:List of 1
+#&gt;   .. .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. .. ..$ system: chr "http://hl7.org/fhir/v2/0203"
+#&gt;   .. .. .. .. .. .. ..$ code  : chr "MR"
+#&gt;   .. .. .. ..$ value: chr "9ea04190-6835-4e1f-9d9f-d151610382d5"
 #&gt;   .. ..$ name        :List of 20
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "患者" "カンジャ"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "太郎"
+#&gt;   .. .. .. .. ..$ : chr "タロウ"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "XXXTESTXXX" "XXXTESTXXX"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "XXXTESTXXX" "XXXTESTXXX"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ extension:List of 2
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "IDE"
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url      : chr "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation"
+#&gt;   .. .. .. .. .. ..$ valueCode: chr "SYL"
+#&gt;   .. .. .. ..$ family   : chr [1:2] "XXXTESTXXX" "XXXTESTXXX"
+#&gt;   .. .. .. ..$ given    :List of 2
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. .. .. ..$ : chr "DONOTUSE"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  4 variables:
+#&gt;   .. .. .. ..$ use   : chr "official"
+#&gt;   .. .. .. ..$ family: chr "Umbridge"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. .. .. ..$ : chr "Dolores"
+#&gt;   .. .. .. ..$ prefix:List of 1
+#&gt;   .. .. .. .. ..$ : chr "Mrs"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  4 variables:
+#&gt;   .. .. .. ..$ use   : chr "official"
+#&gt;   .. .. .. ..$ family: chr "Umbridge"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Dolores"
+#&gt;   .. .. .. ..$ prefix:List of 1
+#&gt;   .. .. .. .. ..$ : chr "Mrs"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. .. ..$ family: chr "Mayer"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Dorothy"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
+#&gt;   .. .. .. ..$ family: chr "Burnham"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Michael"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. .. ..$ family: chr "測試測試"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "名字"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
+#&gt;   .. .. .. ..$ family: chr "Mayer"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Dorothy"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
+#&gt;   .. .. .. ..$ family: chr "Alexander"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Bob"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. .. ..$ family: chr "Cushing"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Caleb"
 #&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
+#&gt;   .. .. .. ..$ family: chr "Alexander"
 #&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "Smith"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
-#&gt;   .. .. ..$ :'data.frame':	1 obs. of  2 variables:
-#&gt;   .. .. .. ..$ family: chr "heheheDA"
-#&gt;   .. .. .. ..$ given :List of 1
-#&gt;   .. .. .. .. ..$ : chr "John"
+#&gt;   .. .. .. .. ..$ : chr "Bob"
+#&gt;   .. ..$ telecom     :List of 20
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ :'data.frame':	2 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr [1:2] "phone" "phone"
+#&gt;   .. .. .. ..$ value : chr [1:2] "03-1234-5678" "090-2345-6789"
+#&gt;   .. .. .. ..$ use   : chr [1:2] "home" "mobile"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ system: chr "phone"
+#&gt;   .. .. .. ..$ value : chr "+49(0)12345 - 123456"
+#&gt;   .. .. .. ..$ use   : chr "home"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. ..$ gender      : chr [1:20] "male" "male" "male" "male" ...
+#&gt;   .. ..$ birthDate   : chr [1:20] "1951-02-03" "1951-02-03" "1951-02-03" "1951-02-03" ...
+#&gt;   .. ..$ address     :List of 20
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ use       : chr "home"
+#&gt;   .. .. .. ..$ text      : chr "東京都中央区日本橋蛎殻町 １−２−３"
+#&gt;   .. .. .. ..$ postalCode: chr "1030014"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ city   : chr "Charlton"
+#&gt;   .. .. .. ..$ state  : chr "Massachusetts"
+#&gt;   .. .. .. ..$ country: chr "USA"
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  5 variables:
+#&gt;   .. .. .. ..$ extension :List of 1
+#&gt;   .. .. .. .. ..$ :'data.frame':	1 obs. of  2 variables:
+#&gt;   .. .. .. .. .. ..$ url        : chr "http://fhir.ufp/StructureDefinition/patient-ufp"
+#&gt;   .. .. .. .. .. ..$ valueString: chr "Erde"
+#&gt;   .. .. .. ..$ line      :List of 1
+#&gt;   .. .. .. .. ..$ : chr "Milchstrasse 42"
+#&gt;   .. .. .. ..$ city      : chr "Spöck"
+#&gt;   .. .. .. ..$ postalCode: chr "76297"
+#&gt;   .. .. .. ..$ country   : chr "DE"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ :'data.frame':	1 obs. of  3 variables:
+#&gt;   .. .. .. ..$ city   : chr "Charlton"
+#&gt;   .. .. .. ..$ state  : chr "Massachusetts"
+#&gt;   .. .. .. ..$ country: chr "USA"
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
+#&gt;   .. .. ..$ : NULL
 #&gt;   ..$ search  :'data.frame':	20 obs. of  1 variable:
 #&gt;   .. ..$ mode: chr [1:20] "match" "match" "match" "match" ...</div></pre>
   </div>
