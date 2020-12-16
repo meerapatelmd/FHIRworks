@@ -8,11 +8,6 @@ get_resource_entity_set(resource, user_agent)
 }
 \arguments{
 \item{resource}{FHIR resource.}
-
-\item{user_agent}{(Optional) User agent.}
-}
-\value{
-A fhir_test_api class object.
 }
 \description{
 Get a Resource's Entity Set

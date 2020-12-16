@@ -1,27 +1,40 @@
 #' @title
-#' Send a GET request to the FHIR Test API
-#' @param path          Path from \url{http://test.fhir.org/r4/} base url.
+#' Send a GET request to a FHIR API
+#' @param base_url      Base url.
+#' @param delay         Delay in seconds before making the API call.
+#' @param path          Path from the base url.
 #' @param user_agent    (Optional) User agent.
 #' @return
 #' A fhir_test_api class object.
 #' @seealso
 #'  \code{\link[httr]{GET}},\code{\link[httr]{http_type}},\code{\link[httr]{content}},\code{\link[httr]{http_error}},\code{\link[httr]{status_code}}
 #'  \code{\link[jsonlite]{toJSON, fromJSON}}
-#' @rdname fhir_test_api
+#' @rdname fhir_api
 #' @export
 #' @importFrom httr GET http_type content http_error status_code
 #' @importFrom jsonlite fromJSON
-fhir_test_api <-
+fhir_api <-
         function(path,
-                 user_agent) {
+                 base_url = "http://hapi.fhir.org/baseR4",
+                 delay = 5,
+                 user_agent,
+                 ...) {
 
-                url <- sprintf("http://test.fhir.org/r4/%s", path)
+                Sys.sleep(delay)
+
+                url <- sprintf("%s/%s", base_url, path)
 
 
                 if (missing(user_agent)) {
-                response <- httr::GET(url)
+
+                        response <- httr::GET(url,
+                                              ...)
+
                 } else {
-                        response <- httr::GET(url, user_agent)
+
+                        response <- httr::GET(url, user_agent,
+                                              ...)
+
                 }
 
                 if (httr::http_type(response) != "application/fhir+json") {
@@ -52,13 +65,13 @@ fhir_test_api <-
                                 path = path,
                                 response = response
                         ),
-                        class = "fhir_test_api"
+                        class = "fhir_api"
                 )
 
         }
 
 #' @noRd
-print.fhir_test_api <-
+print.fhir_api <-
         function(x, ...) {
                 cat("<FHIR Test", x$path, ">\n", sep = "")
                 str(x$content)
@@ -66,13 +79,11 @@ print.fhir_test_api <-
         }
 
 
-#' @export
-#' @title
-#' Return the payload
-#' @rdname return_payload
+
+#' @noRd
 
 return_payload <-
-        function(fhir_test_api) {
+        function(fhir_api) {
 
-                fhir_test_api$content$entry
+                fhir_api$content$entry
         }

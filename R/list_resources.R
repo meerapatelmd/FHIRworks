@@ -35,7 +35,7 @@ list_resources <-
                   "CompartmentDefinition",
                   "Composition",
                   "ConceptMap",
-                  "Condition (aka Problem)",
+                  "Condition",
                   "Consent",
                   "Contract",
                   "Coverage",
