@@ -1,5 +1,5 @@
 Package: FHIRworks
-Title: What the Package Does (One Line, Title Case)
+Title: R Client for a FHIR API
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Meera",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "patelmeeray@gmail.com",
            comment = c(ORCID = "0000-0002-3401-3948"))
-Description: What the package does (one paragraph).
+Description: FHIRworks is an R interface for making FHIR API calls. Learn more about FHIR at \url{http://build.fhir.org/}.
 License: Apache License 2.0
 Encoding: UTF-8
 LazyData: true

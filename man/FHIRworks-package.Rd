@@ -4,10 +4,10 @@
 \name{FHIRworks-package}
 \alias{FHIRworks}
 \alias{FHIRworks-package}
-\title{FHIRworks: What the Package Does (One Line, Title Case)}
+\title{FHIRworks: R Client for a FHIR API}
 \description{
 FHIRworks is an R interface for making FHIR API calls.
-Learn more about FHIR at \url{http://build.fhir.org/http.html}.
+Learn more about FHIR at \url{http://build.fhir.org/}.
 }
 \author{
 \strong{Maintainer}: Meera Patel, MD \email{patelmeeray@gmail.com} (\href{https://orcid.org/0000-0002-3401-3948}{ORCID})
