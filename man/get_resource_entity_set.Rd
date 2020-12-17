@@ -21,7 +21,7 @@ get_resource_entity_set(
 \item{user_agent}{(Optional) User agent.}
 }
 \value{
-A fhir_test_api class object.
+A fhir_api class object.
 }
 \description{
 All possible FHIR Resources can be returned as a character vector with \code{\link{list_resources}}.

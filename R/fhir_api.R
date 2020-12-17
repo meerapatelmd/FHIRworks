@@ -5,7 +5,7 @@
 #' @param path          Path from the base url.
 #' @param user_agent    (Optional) User agent.
 #' @return
-#' A fhir_test_api class object.
+#' A fhir_api class object.
 #' @seealso
 #'  \code{\link[httr]{GET}},\code{\link[httr]{http_type}},\code{\link[httr]{content}},\code{\link[httr]{http_error}},\code{\link[httr]{status_code}}
 #'  \code{\link[jsonlite]{toJSON, fromJSON}}

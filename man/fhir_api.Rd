@@ -22,7 +22,7 @@ fhir_api(
 \item{user_agent}{(Optional) User agent.}
 }
 \value{
-A fhir_test_api class object.
+A fhir_api class object.
 }
 \description{
 Send a GET request to a FHIR API
